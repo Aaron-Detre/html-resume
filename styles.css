@@ -1,0 +1,28 @@
+html {
+    background-color: #EEEEEE;
+}
+
+a[href] {
+    color: blue;
+}
+
+* {
+    color: #26282d;
+}
+
+.section-header {
+    color: #8a2a27;
+}
+
+.header-element {
+    text-align: center;
+    color: black;
+}
+
+li {
+    font-size: large;
+}
+
+hr {
+    border-color: #686D76;
+}
