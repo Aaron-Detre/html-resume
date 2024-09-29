@@ -7,6 +7,10 @@
             rel="stylesheet" 
             href="./styles.css"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" 
+                rel="stylesheet">
     </head>
     <body>
         <h1 class="header-element" id="header-name">Aaron Detre</h1>
@@ -33,58 +37,69 @@
         <br />
         <h2 class="section-header">Computer Knowledge</h2>
         <hr />
-        <ul>
-            <li>Languages:
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>C</li>
-                    <li>C#</li>
-                    <li>SQL</li>
-                    <li>Racket</li>
-                </ul>
-            </li>
-            <li>Software:
-                <ul>
-                    <li>Visual Studio Code</li>
-                    <li>IntelliJ</li>
-                    <li>MySQL</li>
-                    <li>Github</li>
-                    <li>Unity</li>
-                    <li>Virtual Box</li>
-                </ul>
-            </li>
-            <li>Systems:
-                <ul>
-                    <li>Windows</li>
-                    <li>Linux</li>
-                </ul>
-            </li>
-        </ul>
+        <div class="computer-knowledge">
+            <div class="languages">
+                <h3>Languages:</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                    </ul>
+            </div>
+            <div class="software">
+                <h3>Software:</h3>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>IntelliJ</li>
+                        <li>MySQL</li>
+                        <li>Github</li>
+                        <li>Unity</li>
+                        <li>Virtual Box</li>
+                    </ul>
+            </div>
+            <div class="systems">
+                <h3>Systems:</h3>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                    </ul>
+            </div>
+        </div>
         <br />
-        <h2 class="section-header">Projects</h2>
-        <hr />
-        <h3>3D Video Game - <a href="https://iasar.itch.io/crystal-cavern-navigator">Itch.io Link</a></h3>
-        <h4>June - Aug. 2024</h4>
-        <ul>
-            <li>Designed and published a multi-level 3D video game made in Unity, showcasing strong game design principles.</li>
-            <li>Wrote efficient C# scripts to handle player input, sound effects, particle systems, and level progression, ensuring a polished gameplay experience.</li>
-        </ul>
-        <h3>Chat Server</h3>
-        <h4>April 2024</h4>
-        <ul>
-            <li>Developed a Linux terminal-based chat server in C, utilizing sockets and file descriptors to enable real-time communication between two clients over the internet.</li>
-            <li>Implemented an automatic word filter that detects and replaces certain words before transmitting messages, enhancing my understanding of string manipulation in C.</li>
-            <li>Utilized GDB to debug and optimize the code, improving the server’s reliability and performance.</li>
-        </ul>
-        <h3>Reversi Game</h3>
-        <h4>Oct. - Dec. 2023</h4>
-        <ul>
-            <li>Developed a fully playable version of the board game Reversi in Java, writing over 2,000 lines of clean, readable, and well-documented code.</li>
-            <li>Applied the MVC model and leveraged design patterns such as the Observer, Decorator, and Strategy patterns to structure the application for maintainability and scalability.</li>
-            <li>Designed a visually appealing user interface using the Java Swing library, enhancing the overall user experience.</li>
-        </ul>
+        <div class="projects">
+            <h2 class="section-header">Projects</h2>
+            <hr />
+            <div class="project-block">
+                <h3>3D Video Game - <a href="https://iasar.itch.io/crystal-cavern-navigator">Itch.io Link</a></h3>
+                <h4>June - Aug. 2024</h4>
+                <ul>
+                    <li>Designed and published a multi-level 3D video game made in Unity, showcasing strong game design principles.</li>
+                    <li>Wrote efficient C# scripts to handle player input, sound effects, particle systems, and level progression, ensuring a polished gameplay experience.</li>
+                </ul>
+            </div>
+            <div class="project-block">
+                <h3>Chat Server</h3>
+                <h4>April 2024</h4>
+                <ul>
+                    <li>Developed a Linux terminal-based chat server in C, utilizing sockets and file descriptors to enable real-time communication between two clients over the internet.</li>
+                    <li>Implemented an automatic word filter that detects and replaces certain words before transmitting messages, enhancing my understanding of string manipulation in C.</li>
+                    <li>Utilized GDB to debug and optimize the code, improving the server’s reliability and performance.</li>
+                </ul>
+            </div>
+            <div class="project-block">
+                <h3>Reversi Game</h3>
+                <h4>Oct. - Dec. 2023</h4>
+                <ul>
+                    <li>Developed a fully playable version of the board game Reversi in Java, writing over 2,000 lines of clean, readable, and well-documented code.</li>
+                    <li>Applied the MVC model and leveraged design patterns such as the Observer, Decorator, and Strategy patterns to structure the application for maintainability and scalability.</li>
+                    <li>Designed a visually appealing user interface using the Java Swing library, enhancing the overall user experience.</li>
+                </ul>
+            </div>
+        </div>
         <br />
         <h2 class="section-header">Work Experience</h2>
         <hr />
@@ -94,6 +109,8 @@
             <li>Greeted guests and ensured their safety throughout a virtual reality experience, demonstrating strong interpersonal skills.</li>
             <li>Collaborated effectively with team members, taking on additional responsibilities as needed to ensure smooth operations and a positive guest experience.</li>
         </ul>
-        <a href="https://phi.ca/en/carne-y-arena/"><img src="./assets/carne.jpg" height="400" alt="Carne y Arena headset" /></a>
+        <a href="https://phi.ca/en/carne-y-arena/"><img src="./assets/carne.jpg" alt="Carne y Arena headset" id="cya-img"/></a>
+        <br />
+        <hr />
     </body>
 </html>

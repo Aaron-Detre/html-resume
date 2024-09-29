@@ -1,5 +1,10 @@
 html {
     background-color: #EEEEEE;
+    
+}
+
+body {
+    padding: 5px;
 }
 
 a[href] {
@@ -12,6 +17,8 @@ a[href] {
 
 .section-header {
     color: #8a2a27;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
 }
 
 .header-element {
@@ -30,4 +37,44 @@ hr {
 .logo {
     width: 300px;
     height: 300px;
+}
+
+.computer-knowledge div {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.languages {
+    float: left;
+    /* border: 5px solid; */
+}
+
+.software {
+    float: left;
+    /* border: 5px solid; */
+}
+
+.systems {
+    float: left;
+    /* border: 5px solid; */
+}
+
+.projects {
+    margin-top: 240px;
+}
+
+.project-block {
+    background-color: #FFF3C7;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:10px;
+    border: 5px solid black;
+}
+
+#cya-img {
+    border: 5px solid #8a2a27;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
 }
