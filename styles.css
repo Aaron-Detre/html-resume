@@ -37,14 +37,13 @@ hr {
 .logo {
     width: 300px;
     height: 300px;
-    float: left; 
-    margin: 20px
+    margin-left: 20px;
 }
 
-.school-body-text {
-    float: left;
-    margin-right: 50px;
-    margin-left: 20%;
+.school-text-and-logo {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
 }
 
 .computer-knowledge div {
