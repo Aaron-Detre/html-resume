@@ -1,6 +1,6 @@
 html {
     background-color: #EEEEEE;
-    
+    color: #26282d;
 }
 
 body {
@@ -11,21 +11,6 @@ a[href] {
     color: blue;
 }
 
-* {
-    color: #26282d;
-}
-
-.section-header {
-    color: #8a2a27;
-    font-family: "Noto Serif", serif;
-    font-weight: 700;
-}
-
-.header-element {
-    text-align: center;
-    color: black;
-}
-
 li {
     font-size: large;
 }
@@ -34,39 +19,53 @@ hr {
     border-color: #686D76;
 }
 
-.logo {
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
+.section-box {
+    margin-bottom: 30px;
+    /* border: black solid; */
 }
 
-.school-text-and-logo {
-    width: 50%;
-    margin-left: 25%;
+.header-box {
+    text-align: center;
+    color: black;
+}
+
+/* #work-experience-box {
+    margin-bottom: 0px;
+} */
+
+.section-header-box {
+    color: #8a2a27;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+.school-body-box {
+    width: 60%;
+    margin-left: 20%;
     display: flex;
 }
 
-.computer-knowledge div {
+.computer-knowledge-block {
     margin-left: 20px;
     margin-right: 40px;
 }
 
-.languages {
+#languages-box {
     float: left;
     /* border: 5px solid; */
 }
 
-.software {
+#software-box {
     float: left;
     /* border: 5px solid; */
 }
 
-.systems {
+#systems-box {
     float: left;
     /* border: 5px solid; */
 }
 
-.projects {
+#projects-box {
     margin-top: 240px;
 }
 
@@ -83,5 +82,10 @@ hr {
     border: 5px solid #8a2a27;
     width: 25%;
     margin-left: 5%;
-    margin-bottom: 50px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
 }
