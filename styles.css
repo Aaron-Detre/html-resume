@@ -1,10 +1,7 @@
-html {
-    background-color: #EEEEEE;
-    color: #26282d;
-}
-
 body {
     padding: 5px;
+    background-color: #EEEEEE;
+    color: #26282d;
 }
 
 a[href] {
@@ -19,9 +16,8 @@ hr {
     border-color: #686D76;
 }
 
-.section-box {
+#outer-box > div {
     margin-bottom: 30px;
-    /* border: black solid; */
 }
 
 .header-box {
@@ -29,47 +25,23 @@ hr {
     color: black;
 }
 
-/* #work-experience-box {
-    margin-bottom: 0px;
-} */
-
 .section-header-box {
     color: #8a2a27;
     font-family: "Noto Serif", serif;
     font-weight: 700;
 }
 
-.school-body-box {
-    width: 60%;
-    margin-left: 20%;
-    display: flex;
+#computer-knowledge-box > .section-body-box {
+    padding-bottom: 210px
 }
 
-.computer-knowledge-block {
+#computer-knowledge-box > .section-body-box > div {
     margin-left: 20px;
     margin-right: 40px;
-}
-
-#languages-box {
     float: left;
-    /* border: 5px solid; */
 }
 
-#software-box {
-    float: left;
-    /* border: 5px solid; */
-}
-
-#systems-box {
-    float: left;
-    /* border: 5px solid; */
-}
-
-#projects-box {
-    margin-top: 240px;
-}
-
-.project-block {
+#projects-box > .section-body-box > div {
     background-color: #FFF3C7;
     padding: 1px;
     padding-left: 10px;
@@ -82,6 +54,15 @@ hr {
     border: 5px solid #8a2a27;
     width: 25%;
     margin-left: 5%;
+}
+
+
+/* School webpage specific */
+
+.school-body-box {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
 }
 
 .logo {
